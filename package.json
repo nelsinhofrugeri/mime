@@ -1,0 +1,22 @@
+{
+  "name": "mimic",
+  "version": "1.0.0-beta",
+  "description": "Mimico is the API responsible for using api.ai as artifical intelligence for the AssertiveSales product",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nelsinhofrugeri/mimic.git"
+  },
+  "author": "nelsinho.frugeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsinhofrugeri/mimic/issues"
+  },
+  "homepage": "https://github.com/nelsinhofrugeri/mimic#readme",
+  "dependencies": {
+    "hapi": "^16.4.3"
+  }
+}
