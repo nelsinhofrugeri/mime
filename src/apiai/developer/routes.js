@@ -6,7 +6,7 @@ const handler = new Handler();
 module.exports = [
     {
         method: 'GET',
-        path: '/',
+        path: '/v1/apiai/developer/intents',
         handler: handler.get
     }
 ]

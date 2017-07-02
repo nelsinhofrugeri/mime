@@ -7,7 +7,7 @@ class Handler {
         let options = {
             uri: 'https://api.api.ai/v1/intents?v=20150910',
             headers: {
-                'Authorization': `Bearer ${process.env.APIAI_TOKEN}`
+                'Authorization': `Bearer ${process.env.APIAI_DEVELOPER_TOKEN}`
             },
             json: true
         };
