@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/nelsinhofrugeri/mimic#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "hapi": "^16.4.3",
-    "hapi-router": "^3.5.0"
+    "hapi-router": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   }
 }

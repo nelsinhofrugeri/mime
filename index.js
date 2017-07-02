@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config();
+
 const Hapi = require('hapi');
 const hapiRouter = require('hapi-router');
 
