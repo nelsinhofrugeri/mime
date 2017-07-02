@@ -8,20 +8,10 @@ class Handler {
     post (request, reply) {
         let timezone = new Date();
         let payload = {
-            "query": [
-                "and for tomorrow"
-            ],
-            "contexts": [{
-                "name": "weather",
-                "lifespan": 4
-            }],
-            "location": {
-                "latitude": 37.459157,
-                "longitude": -122.17926
-            },
-            "timezone": "America/New_York",
-            "lang": "en",
-            "sessionId": "1234567890"
+            "query": request.payload.query,
+            "timezone": timezone,
+            "lang": "pt-br",
+            "sessionId": "d828dd6f-7865-4ab2-a5fd-55d488f785e4"
         };
         let options = {
             method: 'POST',
